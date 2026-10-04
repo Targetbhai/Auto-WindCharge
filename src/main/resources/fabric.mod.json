@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "autowindcharge",
+  "version": "1.0.0",
+  "name": "Auto Wind Charge",
+  "description": "Singleplayer wind charge aim assist for ender pearls.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.autowindcharge.AutoWindChargeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
